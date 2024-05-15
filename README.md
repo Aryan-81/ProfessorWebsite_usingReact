@@ -17,7 +17,7 @@ Before you begin, ensure you have Node.js and npm installed on your machine.
 1. Clone the repository to your local machine:
 
     ```
-    git clone <repository-url>
+    git clone https://github.com/Aryan-81/ProfessorWebsite_usingReact.git
     ```
 
 2. Navigate to the project directory:
