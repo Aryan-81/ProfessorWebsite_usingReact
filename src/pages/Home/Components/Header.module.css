@@ -1,0 +1,86 @@
+.img {
+    background-size: cover;
+    background-position: center;
+    height: 100dvh;
+    width: 100%;
+}
+
+.bluebox {
+    background-color: rgba(2, 75, 170, 0.701);
+    height: 100%;
+    width: 37%;
+    transition-duration: 0.45s;
+    transition-timing-function: ease-in-out;
+
+}
+.bluebox:hover {
+    background-color: rgba(13, 82, 172, 0.933);
+    width: 38%;
+}
+.bond {
+    margin-bottom: -165px;
+    margin-left: 20px;
+    margin-top: 10px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.bond:hover {
+    width: 70px;
+
+}
+
+.line{
+    border-color: white;
+    border-width: thin;
+    border-style: solid;
+    margin-left: 5%;
+    margin-right:  3%;
+
+}
+
+.bluebox h1 {
+    padding-top: 130px;
+    margin-left: 5%;
+    font-family: "Teko", sans-serif;
+    font-size: 45px;
+    color: white;
+
+}
+
+.bluebox h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5%;
+    font-size: 1.4em;
+}
+
+.bluebox h3 {
+    color: white;
+    margin-left: 5%;
+    margin-bottom: -20px;
+    font-family: "Teko", sans-serif;
+
+}
+
+.bluebox h4 {
+    color: white;
+    font-size: large;
+    margin-left: 5%;
+    font-family: "Roboto";
+}
+
+.bluebox .email{
+    text-decoration: none;
+    display :flex;
+    flex-direction: row;
+    align-items: center
+}
+.bluebox .email svg{
+    display: none;
+    margin-left: 10%;
+    width: 100%;
+    fill:#979797;
+}.bluebox .email:hover svg{
+    display: block;
+}

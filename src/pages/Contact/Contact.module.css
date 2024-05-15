@@ -1,0 +1,23 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.contact-form-ctr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: 90%;
+}
+
+.container {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 1000px){
+    .contact-form-ctr{
+        margin-top: 200px;
+    }
+}
