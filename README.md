@@ -1,9 +1,6 @@
 # Professor's Website
 
 This repository contains a Professor's website built with React. It is designed to showcase the professor's profile, research interests, publications, and contact information.
-# Professor's Website
-
-This repository contains a Professor's website built with React. It is designed to showcase the professor's profile, research interests, publications, and contact information.
 
 ## Prerequisites
 
