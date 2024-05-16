@@ -2,7 +2,7 @@ import React  from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Nav_bar.module.css';
 import '../styles/hamburger.css'
-import nav_logo from '../assets/Indian_Institute_of_Technology,_Jammu_Logo.png';
+import nav_logo from '../assets/Indian_Institute_of_Technology__Jammu_Logo.svg' ;
 
 
 

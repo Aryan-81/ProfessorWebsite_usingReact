@@ -5,8 +5,6 @@ import Header from "../../components/Header";
 function PhD(){
     return(
         <>
-        <Header />
-        <br></br>
         <Container />
         </>
     )
