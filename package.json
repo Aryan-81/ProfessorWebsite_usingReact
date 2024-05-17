@@ -12,6 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "postinstall": "npm install -D webpack-cli css-loader react-router-dom style-loader",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +39,7 @@
   "devDependencies": {
     "css-loader": "^7.1.1",
     "react-router-dom": "^6.23.1",
-    "style-loader": "^4.0.0"
+    "style-loader": "^4.0.0",
+    "webpack-cli": "^5.1.4"
   }
 }
