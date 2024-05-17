@@ -8,7 +8,7 @@ function Container() {
   const cardComponents = Names.map((Name, index) => (
     <Card key={index} Name={Name} />
   ));
-  console.log(cardComponents);
+  
 
   return (
     <div className={styles['container']}>

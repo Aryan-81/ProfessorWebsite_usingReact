@@ -39,28 +39,3 @@ function AppRoutes() {
 
 export default AppRoutes;
 
-// src/
-// |-- pages/
-// |   |-- Home/
-// |   |   |-- index.js
-// |   |   |-- Home.js
-// |   |   |-- Home.module.css
-// |   |   |-- components/
-// |   |       |-- Component1.js
-// |   |       |-- Component1.module.css
-// |   |       |-- Component2.js
-// |   |       |-- Component2.module.css
-// |   |-- About/
-// |   |   |-- index.js
-// |   |   |-- About.js
-// |   |   |-- About.module.css
-// |   |   |-- components/
-// |   |       |-- Component1.js
-// |   |       |-- Component1.module.css
-// |   |       |-- Component2.js
-// |   |       |-- Component2.module.css
-// |   |-- AppRoutes.js
-// |-- styles/
-// |   |-- global.css
-// |-- App.js
-// |-- index.js
