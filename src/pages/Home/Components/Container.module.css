@@ -1,115 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap');
 
 .ctr-1 {
-    height: fit-content;
-    width: 70%;
-    background: #ffffff;
-    margin: 0 auto;
-    padding: 3% 5%;
-    color: #111111;
-    font-size: 1.2em;
-    line-height: 1.6em;
-    box-sizing: border-box;
-    transform: translateY(-5vh);
+  height: fit-content;
+  width: 70%;
+  background: #ffffff;
+  margin: 0 auto;
+  padding: 3% 5%;
+  color: #111111;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  box-sizing: border-box;
+  transform: translateY(-5vh);
 }
+
 .quote {
-    
-    font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style: larger;
-    color: #868686;
-    font-weight: normal;
-    border-bottom-color: black;
-    border-top-color: rgba(255, 255, 255, 0);
-    border-right-color: rgba(255, 255, 255, 0);
-    border-left-color: rgba(255, 255, 255, 0);
-    border-style: solid;
-    border-width: 2px;
-    padding-bottom: 20px;
-}
-.ctr-1>p {
-    font-size: 1em;
-    font-weight: 500;
-    line-height: 100%;
-    font-family: "Gill Sans", sans-serif;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: larger;
+  color: #868686;
+  font-weight: normal;
+  border-bottom-color: black;
+  border-top-color: rgba(255, 255, 255, 0);
+  border-right-color: rgba(255, 255, 255, 0);
+  border-left-color: rgba(255, 255, 255, 0);
+  border-style: solid;
+  border-width: 2px;
+  padding-bottom: 20px;
 }
 
-.Research {
-    font-family: "Roboto";
+.Research > h4 {
+  font-family: "Roboto";
 }
-.Research h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ff4805;
+.Research > p {
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 100%;
+  font-family: "Gill Sans", sans-serif;
 }
-
-.Research ul  {
-    list-style-type: none; /* No default bullets */
-    padding-left: 0; /* Remove padding */
+.Research > h2 {
+  margin: .83em 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ff4805;
 }
-.Research ul  li {
-    font-family: monospace;
-    font-size: 1.2em;
-    padding-left: 1em; /* Space for the custom bullet */
-    text-indent: -1em; /* Align text with container */
+.Research > ul {
+  list-style-type: none;
 }
-.Research ul  li::before {
-    content: '• '; /* Custom bullet */
-    color: black; /* Bullet color */
-    padding-right: 0.5em; /* Space between bullet and text */
+.Research > ul > li {
+  font-family: monospace;
+  font-size: 1.2em;
+  padding-left: 1em;
+  text-indent: -1em;
+}.Research > ul > li::before {
+  content: '• ';
+  color: black;
+  padding-right: 0.5em;
+}.Research ul li:nth-child(even) {
+  background-color: rgba(229, 238, 243, 0.845);
 }
-.Research ul li:nth-child(even){
-    background-color: rgba(229, 238, 243, 0.845);
-}
-
-#scroll-container {
-    border: 3px solid black;
-    width: 25%;
-    border-radius: 5px;
-    height: 30vh;
-    overflow: hidden;
-    background-color: rgb(220, 241, 245);
-  }
-#scroll-container .heading{
-    position: sticky;
-    width: 100%;
-    background-image: rgb(220, 241, 245);
-}
-
-  
-  #scroll-text {
-    height: 100%;
-    text-align: center;
-    z-index: -10;
-    -moz-transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-    
-    -moz-animation: my-animation 5s linear infinite;
-    -webkit-animation: my-animation 5s linear infinite;
-    animation: my-animation 5s linear infinite;
-  }
-  
-  /* for Firefox */
-  @-moz-keyframes my-animation {
-    from { -moz-transform: translateY(100%); }
-    to { -moz-transform: translateY(-100%); }
-  }
-  
-  /* for Chrome */
-  @-webkit-keyframes my-animation {
-    from { -webkit-transform: translateY(100%); }
-    to { -webkit-transform: translateY(-100%); }
-  }
-  
-  @keyframes my-animation {
-    from {
-      -moz-transform: translateY(100%);
-      -webkit-transform: translateY(100%);
-      transform: translateY(100%);
-    }
-    to {
-      -moz-transform: translateY(-100%);
-      -webkit-transform: translateY(-100%);
-      transform: translateY(-100%);
-    }
-  }
