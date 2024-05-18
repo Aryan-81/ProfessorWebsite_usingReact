@@ -2,7 +2,7 @@ import React from 'react';
 import default_img from '../../../assets/unknownman.png';
 import styles from './InfoCard.module.css'
 
-function Card({ profileimg = default_img, name = 'unknown', ResearchArea = 'Lorem ipsum is interested in xygc jbsd jbc  hsd jbsn j dc bu s  js  jbscbsjc jbsjbjsb' }) {
+function InfoCard({ profileimg = default_img, name = 'unknown', ResearchArea = 'this is default card' ,department = 'department' }) {
     return (
         <div className={styles["container"]}>
             <div className={styles["card"]}>
@@ -12,9 +12,11 @@ function Card({ profileimg = default_img, name = 'unknown', ResearchArea = 'Lore
                     <div className={styles["card-text"]}>
                         <h3>{name}</h3>
                         <p>
-                            DEPARTMENT
-                            <br/><br/>
-                            <b>RESEARCH AREA</b>
+                            <br/>
+                            {department}
+                            <br/>
+
+                            <b>RESEARCH AREA :</b>
                             <br/>
                             {ResearchArea}
                         </p>
@@ -25,4 +27,4 @@ function Card({ profileimg = default_img, name = 'unknown', ResearchArea = 'Lore
     );
 }
 
-export default Card;
+export default InfoCard;
