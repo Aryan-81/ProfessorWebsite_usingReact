@@ -12,7 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "postinstall": "npm install -D webpack-cli css-loader react-router-dom style-loader",
+    "postinstall": "npm install -D webpack-cli css-loader react-router-dom style-loader @babel/plugin-proposal-private-property-in-object",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "css-loader": "^7.1.1",
     "react-router-dom": "^6.23.1",
     "style-loader": "^4.0.0",
