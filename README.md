@@ -6,41 +6,46 @@ This repository contains a Professor's website built with React. It is designed 
 
 Before you begin, ensure you have Node.js and npm installed on your machine. You can check if npm is installed by running the following command in your terminal:
 
-```bash
+```
 npm -v
 ```
+
 If npm is not installed, you will need to install it. You can download and install Node.js which includes npm from https://nodejs.org/.
 ## Installation
 
-Before you begin, ensure you have Node.js and npm installed on your machine.
+Here's the full sequence of commands to set up this porject:
 
-1. Clone the repository to your local machine:
-
+1. Open your terminal or command prompt.
+2. Initialize a new React app:
     ```
-    git clone https://github.com/Aryan-81/ProfessorWebsite_usingReact.git
+    npx create-react-app ProfessorWebsite_usingReact
     ```
-
-2. Navigate to the project directory:
-
+3. Navigate to your newly created React app directory:
     ```
-    cd professor-website
+    cd ProfessorWebsite_usingReact
     ```
 
-3. Install CSS module dependencies:
-
-    This project uses CSS modules for styling components. Install the necessary dependencies with the following command:
-
+4. Initialize a Git repository in this directory:
     ```
-    npm install --save-dev css-loader style-loader
+    git init
     ```
 
-4. Install project dependencies:
+5. Add your GitHub repository as a remote:
+    ```
+    git remote add origin https://github.com/Aryan-81/ProfessorWebsite_usingReact.git
+    ```
 
-    Install the necessary dependencies for the project using npm:
+6. Pull the code from your GitHub repository, resolving conflicts by favoring the remote code:
+    ```
+    git pull -s recursive -X theirs origin main
+    ```
 
+7. Install all dependencies to ensure your project has everything it needs:
     ```
     npm install
     ```
+
+
 ## File Structure
     
 I am following the below type of file structure for organizing your code:
@@ -82,7 +87,7 @@ To run the application locally, follow these steps:
 1. Start the development server:
 
     ```
-    npm start
+    npm run start
     ```
 
 2. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the Professor's website.
@@ -100,7 +105,7 @@ To run the application locally, follow these steps:
 To run tests, use the following command:
 
 ```
-npm test
+npm run test
 ```
 
 This command launches the test runner in interactive watch mode. See the [running tests](https://facebook.github.io/create-react-app/docs/running-tests) section for more information.
