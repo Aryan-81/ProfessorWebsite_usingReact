@@ -3,13 +3,12 @@
 }
 
 .container{
-    border-style: light;
     border-width: 2px;
     border-color:black;
     height: fit-content;
     width: 80%;
     margin: 2vh auto;
-    padding: 0.1vh 2%;
+    padding: 1vh 2% ;
     transition-duration: 0.3s;
     transition-timing-function:ease-in-out;
 
@@ -23,34 +22,35 @@
 
 .container h2{
     font-family: "Lobster", sans-serif;
+    margin: .83em 0;
     font-weight: 400;
     font-style: normal;
     color: #ff4805;
 }
 .container h3 {
     color: black;
+    margin: 1em 0 1em 5%;
     font-family: "Varela Round", sans-serif;
     font-weight: 600;
     font-style: normal;
-    margin-left: 5%;
 }
 
 .container ul  {
     list-style-type: none; /* No default bullets */
-    padding-left: 0; /* Remove padding */
+    padding-left: 0; 
     margin-left: 5%;
 }
 .container ul  li {
     font-family: monospace;
     font-size: 1.2em;
     line-height: 2em;
-    padding-left: 1em; /* Space for the custom bullet */
-    text-indent: -1em; /* Align text with container */
+    padding-left: 1em; 
+    text-indent: -1em;
 }
 .container ul  li::before {
     content: '• '; /* Custom bullet */
-    color: black; /* Bullet color */
-    padding-right: 0.5em; /* Space between bullet and text */
+    color: black; 
+    padding-right: 0.5em; 
 }
 .container ul li:nth-child(even){
     background-color: rgba(229, 238, 243, 0.845);
